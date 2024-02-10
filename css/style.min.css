@@ -6686,12 +6686,12 @@ header .left-nav .navbar-nav:before {
   right: -150px;
 }
 header .header-top-bar,
-header .navbar {
+/* header .navbar {
   position: fixed;
   top: 0;
   right: 0;
   -webkit-transition: 0.3s;
-}
+} */
 .bottom-minus-0px {
   bottom: 0;
 }
@@ -7381,14 +7381,15 @@ header .navbar.mini-header .navbar-brand img {
 header .navbar-brand {
   margin-right: 0;
   vertical-align: middle;
-  padding: 30px 0;
   display: inline-block;
   font-size: 0;
+}
+.container-logo {
+  width: 8%;
 }
 header .navbar-brand .default-logo {
   visibility: visible;
   opacity: 1;
-  width: auto;
 }
 header .navbar-brand .alt-logo,
 header .navbar-brand .mobile-logo {
