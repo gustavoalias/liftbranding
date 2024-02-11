@@ -80,6 +80,7 @@ a:hover {
   --camarone: #20642b;
   --seal-brown: #0e0708;
   --Wasabi: #8ea63a;
+  --principal: #00c6cb;
 }
 .alt-font {
   font-family: var(--alt-font);
@@ -99,10 +100,10 @@ section.half-section {
   padding-top: 70px;
   padding-bottom: 70px;
 }
-section.big-section {
+/* section.big-section {
   padding-top: 130px;
   padding-bottom: 130px;
-}
+} */
 section.extra-big-section {
   padding-top: 160px;
   padding-bottom: 160px;
@@ -10726,7 +10727,7 @@ blockquote footer {
   color: var(--base-color);
 }
 .btn.btn-dark-gray {
-  background-color: var(--dark-gray);
+  background-color: var(--principal);
   color: var(--white);
 }
 .btn.btn-dark-gray:active,
@@ -10837,8 +10838,8 @@ blockquote footer {
 }
 .btn.btn-transparent-light-gray:active,
 .btn.btn-transparent-light-gray:hover {
-  background-color: var(--dark-gray);
-  border-color: var(--dark-gray);
+  background-color: var(--principal);
+  /* border-color: var(--dark-gray); */
   color: var(--white);
 }
 .btn.btn-double-border.btn-extra-large {
